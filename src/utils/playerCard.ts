@@ -28,7 +28,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/htetWaiLin.png",
+    img: "rdg/htetWaiLin.png",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/nyiNyiHtet.png",
+    img: "rdg/nyiNyiHtet.png",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/saiHtetAung.png",
+    img: "rdg/saiHtetAung.png",
   },
   {
     id: 5,
@@ -52,7 +52,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/hanHtooZaw.png",
+    img: "rdg/hanHtooZaw.png",
   },
   {
     id: 6,
@@ -60,7 +60,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/thetWai.png",
+    img: "rdg/thetWai.png",
   },
   {
     id: 7,
@@ -68,7 +68,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/arKoeYar.png",
+    img: "rdg/arKoeYar.png",
   },
   {
     id: 8,
@@ -76,7 +76,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/aungThetKhaingHtwe.png",
+    img: "rdg/aungThetKhaingHtwe.png",
   },
   {
     id: 9,
@@ -84,7 +84,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/kyawThantSin.png",
+    img: "rdg/kyawThantSin.png",
   },
   {
     id: 10,
@@ -92,7 +92,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/yellYint.png",
+    img: "rdg/yellYint.png",
   },
   {
     id: 11,
@@ -100,7 +100,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/htinKyawLynn.png",
+    img: "rdg/htinKyawLynn.png",
   },
   {
     id: 12,
@@ -108,7 +108,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/chanMyaeAung.png",
+    img: "rdg/chanMyaeAung.png",
   },
   {
     id: 13,
@@ -116,7 +116,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/riRo.png",
+    img: "rdg/riRo.png",
   },
   {
     id: 14,
@@ -124,7 +124,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/nyiNyiHtet.png",
+    img: "rdg/nyiNyiHtet.png",
   },
   {
     id: 15,
@@ -132,7 +132,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/minThuLin.png",
+    img: "rdg/minThuLin.png",
   },
   {
     id: 16,
@@ -140,7 +140,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/yairMinHtun.png",
+    img: "rdg/yairMinHtun.png",
   },
   {
     id: 17,
@@ -148,7 +148,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/htetAgHlaing.png",
+    img: "rdg/htetAgHlaing.png",
   },
   {
     id: 18,
@@ -156,7 +156,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/kyawZayKhant.png",
+    img: "rdg/kyawZayKhant.png",
   },
   {
     id: 19,
@@ -164,7 +164,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/nayNile.png",
+    img: "rdg/nayNile.png",
   },
   {
     id: 20,
@@ -172,7 +172,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/owen.png",
+    img: "rdg/owen.png",
   },
   {
     id: 21,
@@ -180,7 +180,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/thanSinWin.png",
+    img: "rdg/thanSinWin.png",
   },
   {
     id: 22,
@@ -188,7 +188,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/htutKaungMyat.png",
+    img: "rdg/htutKaungMyat.png",
   },
   {
     id: 23,
@@ -196,7 +196,7 @@ export const players: Player[] = [
     city: "Yangon",
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "../rdg/bhoneZ.png",
+    img: "rdg/bhoneZ.png",
   },
 ];
 export const head: Head[] = [
