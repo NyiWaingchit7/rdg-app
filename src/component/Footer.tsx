@@ -42,9 +42,8 @@ const Footer = () => {
                   p: 1,
                 }}
               >
-                {v.icon}
-
                 <Typography>{v.name}</Typography>
+                {v.icon}
               </Box>
             );
           })}
@@ -63,8 +62,8 @@ const Footer = () => {
                   justifyContent: "space-between",
                   alignItems: "center",
                   mx: 3,
-
                   p: 1,
+                  flexDirection: { xs: "row-reverse", sm: "row" },
                 }}
               >
                 {v.icon}
