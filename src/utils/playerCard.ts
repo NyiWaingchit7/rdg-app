@@ -23,7 +23,7 @@ export const players: Player[] = [
     shirtNumber: 1,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/nyiNyiHtet.png",
+    img: "img/nyiNyiHtet.png",
   },
   {
     id: 2,
@@ -32,7 +32,7 @@ export const players: Player[] = [
     shirtNumber: 5,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/htetWaiLin.png",
+    img: "img/htetWaiLin.png",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ export const players: Player[] = [
     shirtNumber: 34,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/nyiNyiHtet.png",
+    img: "img/nyiNyiHtet.png",
   },
   {
     id: 4,
@@ -50,7 +50,7 @@ export const players: Player[] = [
     shirtNumber: 13,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/saiHtetAung.png",
+    img: "img/saiHtetAung.png",
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ export const players: Player[] = [
     shirtNumber: 23,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/hanHtooZaw.png",
+    img: "img/hanHtooZaw.png",
   },
   {
     id: 6,
@@ -68,7 +68,7 @@ export const players: Player[] = [
     shirtNumber: 6,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/thetWai.png",
+    img: "img/thetWai.png",
   },
   {
     id: 7,
@@ -77,7 +77,7 @@ export const players: Player[] = [
     shirtNumber: 8,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/arKoeYar.png",
+    img: "img/arKoeYar.png",
   },
   {
     id: 8,
@@ -86,7 +86,7 @@ export const players: Player[] = [
     shirtNumber: 35,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/aungThetKhaingHtwe.png",
+    img: "img/aungThetKhaingHtwe.png",
   },
   {
     id: 9,
@@ -95,7 +95,7 @@ export const players: Player[] = [
     shirtNumber: 24,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/kyawThantSin.png",
+    img: "img/kyawThantSin.png",
   },
   {
     id: 10,
@@ -104,7 +104,7 @@ export const players: Player[] = [
     shirtNumber: 14,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/yellYint.png",
+    img: "img/yellYint.png",
   },
   {
     id: 11,
@@ -113,7 +113,7 @@ export const players: Player[] = [
     shirtNumber: 16,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/htinKyawLynn.png",
+    img: "img/htinKyawLynn.png",
   },
   {
     id: 12,
@@ -122,7 +122,7 @@ export const players: Player[] = [
     shirtNumber: 11,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/chanMyaeAung.png",
+    img: "img/chanMyaeAung.png",
   },
   {
     id: 13,
@@ -131,7 +131,7 @@ export const players: Player[] = [
     shirtNumber: 10,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/riRo.png",
+    img: "img/riRo.png",
   },
   {
     id: 14,
@@ -140,7 +140,7 @@ export const players: Player[] = [
     shirtNumber: 18,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/heinHtetAung.png",
+    img: "img/heinHtetAung.png",
   },
   {
     id: 15,
@@ -149,7 +149,7 @@ export const players: Player[] = [
     shirtNumber: 20,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/minThuLin.png",
+    img: "img/minThuLin.png",
   },
   {
     id: 16,
@@ -158,7 +158,7 @@ export const players: Player[] = [
     shirtNumber: 12,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/yairMinHtun.png",
+    img: "img/yairMinHtun.png",
   },
   {
     id: 17,
@@ -167,7 +167,7 @@ export const players: Player[] = [
     shirtNumber: 29,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/htetAgHlaing.png",
+    img: "img/htetAgHlaing.png",
   },
   {
     id: 18,
@@ -176,7 +176,7 @@ export const players: Player[] = [
     shirtNumber: 27,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/kyawZayKhant.png",
+    img: "img/kyawZayKhant.png",
   },
   {
     id: 19,
@@ -185,7 +185,7 @@ export const players: Player[] = [
     shirtNumber: 22,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/nayNile.png",
+    img: "img/nayNile.png",
   },
   {
     id: 20,
@@ -194,7 +194,7 @@ export const players: Player[] = [
     shirtNumber: 16,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/owen.png",
+    img: "img/owen.png",
   },
   {
     id: 21,
@@ -203,7 +203,7 @@ export const players: Player[] = [
     shirtNumber: 28,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/thanSinWin.png",
+    img: "img/thanSinWin.png",
   },
   {
     id: 22,
@@ -212,7 +212,7 @@ export const players: Player[] = [
     shirtNumber: 2,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/htutKaungMyat.png",
+    img: "img/htutKaungMyat.png",
   },
   {
     id: 23,
@@ -221,7 +221,7 @@ export const players: Player[] = [
     shirtNumber: 36,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "rdg/bhoneZ.png",
+    img: "img/bhoneZ.png",
   },
 ];
 export const head: Head[] = [
@@ -254,4 +254,4 @@ export const head: Head[] = [
     img: "",
   },
 ];
-export const bgimg = "rdg/bgpic.webp";
+export const bgimg = "img/bgpic.webp";
