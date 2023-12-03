@@ -95,7 +95,7 @@ export const players: Player[] = [
     shirtNumber: 24,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "img/kyawThantSin.png",
+    img: "img/kyawThanSin.png",
   },
   {
     id: 10,
