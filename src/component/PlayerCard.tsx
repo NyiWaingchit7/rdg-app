@@ -1,13 +1,14 @@
 import { Box, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
+import { bgimg } from "../utils/playerCard";
 interface prop {
   id: number;
   name: string;
   img: string;
+  shirtNumber: number;
 }
 
-const PlayerCard = ({ id, name, img }: prop) => {
-  const bgimg = "rdg/bgpic.webp";
+const PlayerCard = ({ id, name, img, shirtNumber }: prop) => {
   return (
     <Link to={`${id}`} style={{ textDecoration: "none" }}>
       <Box
@@ -31,7 +32,6 @@ const PlayerCard = ({ id, name, img }: prop) => {
             width: "100%",
             height: "100%",
             objectFit: "contain",
-
             backgroundImage: `url(${bgimg})`,
             backgroundPosition: "center",
             backgroundSize: "70%",
@@ -55,11 +55,11 @@ const PlayerCard = ({ id, name, img }: prop) => {
         <Typography
           sx={{
             fontSize: { xs: "0.7rem", sm: "1rem" },
-            fontWeight: "bold",
+            fontWeight: 800,
             my: 1,
           }}
         >
-          {id}
+          {shirtNumber}
         </Typography>
         <Typography
           sx={{

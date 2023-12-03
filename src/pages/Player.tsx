@@ -25,7 +25,12 @@ const Player = () => {
               m: 2,
             }}
           >
-            <PlayerCard id={p.id} name={p.name} img={p.img} />
+            <PlayerCard
+              id={p.id}
+              name={p.name}
+              img={p.img}
+              shirtNumber={p.shirtNumber}
+            />
           </Box>
         ))}
       </Box>

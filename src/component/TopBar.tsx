@@ -65,7 +65,7 @@ const TopBar = () => {
           </Typography>
         </Box>
         <Box sx={{ width: "60px", borderRadius: "50%" }}>
-          <Box sx={{ width: "100%" }} component="img" src="Red_Dragon.png" />
+          <Box sx={{ width: "100%" }} component="img" src="../Red_Dragon.png" />
         </Box>
       </Box>
       <Box>
