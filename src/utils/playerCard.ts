@@ -32,7 +32,7 @@ export const players: Player[] = [
     shirtNumber: 5,
     joinDate: "2022",
     birthDate: "1-1-1999",
-    img: "img/htetWaiLin.png",
+    img: "img/htetWainLin.png",
   },
   {
     id: 3,
