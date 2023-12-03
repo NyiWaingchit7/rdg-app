@@ -26,7 +26,7 @@ const PlayerCard = ({ id, name, img }: prop) => {
       >
         <Box
           component="img"
-          src={img}
+          src={`../${img}`}
           sx={{
             width: "100%",
             height: "100%",
