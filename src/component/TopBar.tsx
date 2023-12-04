@@ -150,7 +150,7 @@ export const sideBar = [
     id: 3,
     name: "Achievement",
     icon: <EmojiEventsIcon sx={{ fontSize: "2rem" }} />,
-    route: "/achievement",
+    route: "/",
   },
   {
     id: 4,
