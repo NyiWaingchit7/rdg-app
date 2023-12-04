@@ -59,6 +59,7 @@ const TopBar = () => {
             sx={{
               fontSize: { md: "1.5rem", sm: "1.3rem", xs: "1rem" },
               color: "secondary.main",
+              fontWeight: "bold",
             }}
           >
             RED DRAGON E.F.C

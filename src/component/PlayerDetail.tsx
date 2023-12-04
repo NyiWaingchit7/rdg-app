@@ -1,11 +1,24 @@
 import { Box, Typography } from "@mui/material";
 import { useParams } from "react-router-dom";
-import { players } from "../utils/playerCard";
+import { Main, players } from "../utils/playerCard";
 import { bgimg } from "../utils/playerCard";
+import { head } from "../utils/playerCard";
+import { useEffect, useState } from "react";
 
-const PlayerDetail = () => {
+interface prop {
+  headId?: number;
+}
+
+const PlayerDetail = ({ headId }: prop) => {
+  const [data, setData] = useState<Main>();
   const id = useParams().id;
-  const data = players.find((d) => d.id === Number(id));
+
+  useEffect(() => {
+    const maindata = headId
+      ? head.find((d) => d.id === headId)
+      : players.find((d) => d.id === Number(id));
+    setData(maindata);
+  }, []);
   if (!data) return null;
   return (
     <Box
@@ -67,7 +80,7 @@ const PlayerDetail = () => {
           <Typography
             sx={{ fontSize: { xs: "1rem", lg: "1.5rem" }, width: "100%" }}
           >
-            Name{" "}
+            Name
           </Typography>
           <Typography> - </Typography>
           <Typography
@@ -92,7 +105,7 @@ const PlayerDetail = () => {
           <Typography
             sx={{ fontSize: { xs: "1rem", lg: "1.5rem" }, width: "100%" }}
           >
-            Shirt Number{" "}
+            Age
           </Typography>
           <Typography> - </Typography>
           <Typography
@@ -103,7 +116,40 @@ const PlayerDetail = () => {
               m: 2,
             }}
           >
-            {data.shirtNumber}
+            {data.age}
+          </Typography>
+        </Box>
+        <Box
+          sx={{
+            width: { xs: "90%", lg: "60%" },
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "center",
+          }}
+        >
+          {headId ? (
+            <Typography
+              sx={{ fontSize: { xs: "1rem", lg: "1.5rem" }, width: "100%" }}
+            >
+              Role
+            </Typography>
+          ) : (
+            <Typography
+              sx={{ fontSize: { xs: "1rem", lg: "1.5rem" }, width: "100%" }}
+            >
+              Shirt Number
+            </Typography>
+          )}
+          <Typography> - </Typography>
+          <Typography
+            sx={{
+              fontSize: { xs: "1rem", lg: "1.5rem" },
+              textAlign: "start",
+              width: "100%",
+              m: 2,
+            }}
+          >
+            {headId ? data.role : data.shirtNumber}
           </Typography>
         </Box>
         <Box
@@ -117,7 +163,7 @@ const PlayerDetail = () => {
           <Typography
             sx={{ fontSize: { xs: "1rem", lg: "1.5rem" }, width: "100%" }}
           >
-            City{" "}
+            City
           </Typography>
           <Typography> - </Typography>
           <Typography
@@ -142,7 +188,7 @@ const PlayerDetail = () => {
           <Typography
             sx={{ fontSize: { xs: "1rem", lg: "1.5rem" }, width: "100%" }}
           >
-            Birthday{" "}
+            Date of Birth
           </Typography>
           <Typography> - </Typography>
           <Typography

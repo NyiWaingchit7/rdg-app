@@ -1,27 +1,23 @@
-interface Player {
+export interface Main {
   id: number;
   name: string;
-  city: string;
-  shirtNumber: number;
   joinDate: string;
-  birthDate: string;
+  age: number;
+  shirtNumber?: number;
+  birthDate?: string;
+  city?: string;
   img: string;
+  role?: string;
 }
-interface Head {
-  id: number;
-  name: string;
-  role: string;
-  joinDate: string;
 
-  img: string;
-}
-export const players: Player[] = [
+export const players: Main[] = [
   {
     id: 1,
     name: "Nyi Nyi Htet",
     city: "Yangon",
     shirtNumber: 1,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/nyiNyiHtet.png",
   },
@@ -31,6 +27,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 5,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/htetWainLin.png",
   },
@@ -40,6 +37,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 34,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/nyiNyiHtet.png",
   },
@@ -49,6 +47,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 13,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/saiHtetAung.png",
   },
@@ -58,6 +57,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 23,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/hanHtooZaw.png",
   },
@@ -67,6 +67,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 6,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/thetWai.png",
   },
@@ -76,6 +77,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 8,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/arKoeYar.png",
   },
@@ -85,6 +87,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 35,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/aungThetKhaingHtwe.png",
   },
@@ -94,6 +97,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 24,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/kyawThanSin.png",
   },
@@ -103,6 +107,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 14,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/yellYint.png",
   },
@@ -112,6 +117,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 16,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/htinKyawLynn.png",
   },
@@ -121,6 +127,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 11,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/chanMyaeAung.png",
   },
@@ -130,6 +137,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 10,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/riRo.png",
   },
@@ -139,6 +147,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 18,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/heinHtetAung.png",
   },
@@ -148,6 +157,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 20,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/minThuLin.png",
   },
@@ -157,6 +167,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 12,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/yairMinHtun.png",
   },
@@ -166,6 +177,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 29,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/htetAgHlaing.png",
   },
@@ -175,6 +187,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 27,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/kyawZayKhant.png",
   },
@@ -184,6 +197,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 22,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/nayNile.png",
   },
@@ -193,6 +207,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 16,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/owen.png",
   },
@@ -202,6 +217,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 28,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/thanSinWin.png",
   },
@@ -211,6 +227,7 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 2,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/htutKaungMyat.png",
   },
@@ -220,38 +237,42 @@ export const players: Player[] = [
     city: "Yangon",
     shirtNumber: 36,
     joinDate: "2022",
+    age: 22,
     birthDate: "1-1-1999",
     img: "img/bhoneZ.png",
   },
 ];
-export const head: Head[] = [
+export const head: Main[] = [
   {
     id: 1,
     name: "Aung Kaung Myat",
     role: "Manger/Coach",
     joinDate: "2022",
-    img: "",
+    age: 22,
+    birthDate: "1-1-199",
+    city: "Yangon",
+    img: "img/aungKaungMyat.png",
   },
-  {
-    id: 2,
-    name: "Yair yint Thwe",
-    role: "Founder",
-    joinDate: "2021",
-    img: "",
-  },
+
   {
     id: 3,
     name: "Nyi Nyi Htet",
-    role: "Co-founder/Captain",
+    role: "Co-founder /Captain",
     joinDate: "2021",
-    img: "",
+    age: 22,
+    birthDate: "1-1-199",
+    city: "Yangon",
+    img: "img/nyiNyiHtet.png",
   },
   {
     id: 4,
     name: "Han Htoo Zaw",
     role: "Vice Captain",
     joinDate: "2022",
-    img: "",
+    age: 22,
+    birthDate: "1-1-199",
+    city: "Yangon",
+    img: "img/hanHtooZaw.png",
   },
 ];
 export const bgimg = "img/bgpic.webp";

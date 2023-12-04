@@ -12,7 +12,7 @@ const Footer = () => {
       sx={{
         maxWidth: "100vw",
         bgcolor: "primary.main",
-        p: 3,
+        p: 4,
       }}
     >
       <Box
@@ -38,7 +38,6 @@ const Footer = () => {
                   justifyContent: "space-between",
                   alignItems: "center",
                   mx: 3,
-
                   p: 1,
                 }}
               >

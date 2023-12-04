@@ -8,6 +8,7 @@ import Layout from "./component/Layout";
 import Player from "./pages/Player";
 import Achievement from "./pages/Achievement";
 import PlayerDetail from "./component/PlayerDetail";
+import HeadDetail from "./component/HeadDetail";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Layout>
         <Routes>
           <Route path="/" Component={Home} />
+          <Route path="/head/:id" Component={HeadDetail} />
           <Route path="/player" Component={Player} />
           <Route path="/player/:id" Component={PlayerDetail} />
 

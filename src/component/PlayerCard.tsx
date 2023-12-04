@@ -5,12 +5,14 @@ interface prop {
   id: number;
   name: string;
   img: string;
-  shirtNumber: number;
+  shirtNumber?: number;
+  role?: string;
 }
 
-const PlayerCard = ({ id, name, img, shirtNumber }: prop) => {
+const PlayerCard = ({ id, name, img, shirtNumber, role }: prop) => {
+  const toPath = role ? `/head/${id}` : `${id}`;
   return (
-    <Link to={`${id}`} style={{ textDecoration: "none" }}>
+    <Link to={toPath} style={{ textDecoration: "none" }}>
       <Box
         sx={{
           width: "100%",
@@ -52,24 +54,38 @@ const PlayerCard = ({ id, name, img, shirtNumber }: prop) => {
           borderBottomLeftRadius: 10,
         }}
       >
-        <Typography
-          sx={{
-            fontSize: { xs: "0.7rem", sm: "1rem" },
-            fontWeight: 800,
-            my: 1,
-          }}
-        >
-          {shirtNumber}
-        </Typography>
+        {shirtNumber && (
+          <Typography
+            sx={{
+              fontSize: { xs: "0.7rem", sm: "1rem" },
+              fontWeight: 800,
+              my: 1,
+            }}
+          >
+            {shirtNumber}
+          </Typography>
+        )}
         <Typography
           sx={{
             fontSize: { xs: "0.7rem", sm: "1rem" },
             fontWeight: "bold",
             mb: 1,
+            mt: role ? 1 : 0,
           }}
         >
           {name}
         </Typography>
+        {role && (
+          <Typography
+            sx={{
+              fontSize: { xs: "0.7rem", sm: "1rem" },
+              fontWeight: "bold",
+              mb: 1,
+            }}
+          >
+            {role}
+          </Typography>
+        )}
       </Box>
     </Link>
   );
