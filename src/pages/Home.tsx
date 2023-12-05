@@ -47,7 +47,7 @@ const Home = () => {
             sx={{
               color: "primary.light",
               fontWeight: "light",
-              fontSize: { xs: "0.7rem", sm: "1.2rem" },
+              fontSize: { xs: "0.85rem", sm: "1.2rem" },
             }}
           >
             Hello,honorable audience., Welcome to our red dragon efootball
