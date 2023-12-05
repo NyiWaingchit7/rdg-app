@@ -50,13 +50,17 @@ const Home = () => {
               fontSize: { xs: "0.7rem", sm: "1.2rem" },
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis
-            consequuntur cum ex repudiandae voluptates nulla officia explicabo
-            ab tenetur adipisci laudantium, doloribus illo illum aliquam
-            ratione, harum rerum dicta maiores. Lorem ipsum, dolor sit amet
-            consectetur adipisicing elit. Sint, beatae excepturi! Magni, optio
-            laborum! Et dolorem fugit, similique voluptatum explicabo quis nam
-            sapiente praesentium facere veniam laborum odio, voluptate minus.
+            Hello,honorable audience., Welcome to our red dragon efootball
+            club.Our team was one of the first team to participate in Myanmar's
+            e league since its establishment. We have been able to firmly prove
+            ourselves as the big team in Myanmar.The achievements we have been
+            owned by the third place in myanmar e league twice (season 3 and 4)
+            and the entry into the Asian Champions League twice.We managed to
+            find and recruit good efootball players in Myanmar in a systematic
+            way and become a strong great,together with the managers and all the
+            members of the team.Moving forward, we will try to introduce the
+            most skilled,sharp and top-level players for the Myanmar efootball
+            community.
           </Typography>
         </Box>
       </Box>

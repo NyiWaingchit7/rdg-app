@@ -9,6 +9,11 @@ export interface Main {
   img: string;
   role?: string;
 }
+export interface FixtureType {
+  id: number;
+  teamName: string;
+  result: string;
+}
 
 export const players: Main[] = [
   {
@@ -18,7 +23,7 @@ export const players: Main[] = [
     shirtNumber: 1,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/nyiNyiHtet.png",
   },
   {
@@ -28,7 +33,7 @@ export const players: Main[] = [
     shirtNumber: 5,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/htetWainLin.png",
   },
   {
@@ -38,7 +43,7 @@ export const players: Main[] = [
     shirtNumber: 34,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/nyiNyiHtet.png",
   },
   {
@@ -48,7 +53,7 @@ export const players: Main[] = [
     shirtNumber: 13,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/saiHtetAung.png",
   },
   {
@@ -58,7 +63,7 @@ export const players: Main[] = [
     shirtNumber: 23,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/hanHtooZaw.png",
   },
   {
@@ -68,7 +73,7 @@ export const players: Main[] = [
     shirtNumber: 6,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/thetWai.png",
   },
   {
@@ -78,7 +83,7 @@ export const players: Main[] = [
     shirtNumber: 8,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/arKoeYar.png",
   },
   {
@@ -88,7 +93,7 @@ export const players: Main[] = [
     shirtNumber: 35,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/aungThetKhaingHtwe.png",
   },
   {
@@ -98,7 +103,7 @@ export const players: Main[] = [
     shirtNumber: 24,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/kyawThanSin.png",
   },
   {
@@ -108,7 +113,7 @@ export const players: Main[] = [
     shirtNumber: 14,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/yellYint.png",
   },
   {
@@ -118,7 +123,7 @@ export const players: Main[] = [
     shirtNumber: 16,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/htinKyawLynn.png",
   },
   {
@@ -128,7 +133,7 @@ export const players: Main[] = [
     shirtNumber: 11,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/chanMyaeAung.png",
   },
   {
@@ -138,7 +143,7 @@ export const players: Main[] = [
     shirtNumber: 10,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/riRo.png",
   },
   {
@@ -148,7 +153,7 @@ export const players: Main[] = [
     shirtNumber: 18,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/heinHtetAung.png",
   },
   {
@@ -158,7 +163,7 @@ export const players: Main[] = [
     shirtNumber: 20,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/minThuLin.png",
   },
   {
@@ -168,7 +173,7 @@ export const players: Main[] = [
     shirtNumber: 12,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/yairMinHtun.png",
   },
   {
@@ -178,7 +183,7 @@ export const players: Main[] = [
     shirtNumber: 29,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/htetAgHlaing.png",
   },
   {
@@ -188,7 +193,7 @@ export const players: Main[] = [
     shirtNumber: 27,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/kyawZayKhant.png",
   },
   {
@@ -198,7 +203,7 @@ export const players: Main[] = [
     shirtNumber: 22,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/nayNile.png",
   },
   {
@@ -208,7 +213,7 @@ export const players: Main[] = [
     shirtNumber: 16,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/owen.png",
   },
   {
@@ -218,7 +223,7 @@ export const players: Main[] = [
     shirtNumber: 28,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/thanSinWin.png",
   },
   {
@@ -228,7 +233,7 @@ export const players: Main[] = [
     shirtNumber: 2,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/htutKaungMyat.png",
   },
   {
@@ -238,7 +243,7 @@ export const players: Main[] = [
     shirtNumber: 36,
     joinDate: "2022",
     age: 22,
-    birthDate: "1-1-1999",
+    birthDate: "1-1-2001",
     img: "img/bhoneZ.png",
   },
 ];
@@ -276,3 +281,27 @@ export const head: Main[] = [
   },
 ];
 export const bgimg = "img/bgpic.webp";
+
+export const fixture: FixtureType[] = [
+  { id: 1, teamName: "Made In Burma ", result: "1  -  0" },
+  { id: 2, teamName: "Kings of Victory ", result: "" },
+  { id: 3, teamName: "Burmese Glatico", result: "" },
+  { id: 4, teamName: "Lycan Hunter ", result: "2  -  0" },
+  { id: 5, teamName: "Vietnamese Gang", result: "" },
+  { id: 6, teamName: "Burmese Legend", result: "" },
+  { id: 7, teamName: "Ironic Q", result: "" },
+  { id: 8, teamName: "Hades Eclipse", result: "" },
+  { id: 9, teamName: "Rebellion", result: "" },
+  { id: 10, teamName: "Titan King", result: "" },
+  { id: 11, teamName: "Invincible Amigo", result: "" },
+  { id: 12, teamName: "The Goat E-sport", result: "" },
+  { id: 13, teamName: "V Team", result: "" },
+  { id: 14, teamName: "King of Burmese", result: "" },
+  { id: 15, teamName: "Burma States Union", result: "" },
+  { id: 16, teamName: "Burmese Dragon", result: "" },
+  { id: 17, teamName: "Prime Crew-X", result: "" },
+  { id: 18, teamName: "The Unstoppable", result: "" },
+  { id: 19, teamName: "Feint E-sport", result: "" },
+  { id: 19, teamName: "Golden Bride", result: "" },
+  { id: 19, teamName: "Brother FC", result: "" },
+];

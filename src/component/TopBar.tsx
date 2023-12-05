@@ -156,7 +156,7 @@ export const sideBar = [
     id: 4,
     name: "Fixture",
     icon: <SportsSoccerIcon sx={{ fontSize: "2rem" }} />,
-    route: "/",
+    route: "/fixture",
   },
   {
     id: 5,

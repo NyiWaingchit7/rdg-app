@@ -9,6 +9,7 @@ import Player from "./pages/Player";
 import Achievement from "./pages/Achievement";
 import PlayerDetail from "./component/PlayerDetail";
 import HeadDetail from "./component/HeadDetail";
+import Fixture from "./pages/Fixture";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/player/:id" Component={PlayerDetail} />
 
           <Route path="/achievement" Component={Achievement} />
+          <Route path="/fixture" Component={Fixture} />
         </Routes>
       </Layout>
     </BrowserRouter>
