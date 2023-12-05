@@ -22,7 +22,7 @@ const Fixture = () => {
         : fixture.filter((d) => d.result !== "");
 
     setMatches(data);
-  }, [value, matches]);
+  }, [value, !matches]);
   if (!matches) return null;
   return (
     <Box sx={{ my: 3, minHeight: "70vh" }}>

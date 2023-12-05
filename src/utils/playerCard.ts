@@ -302,6 +302,6 @@ export const fixture: FixtureType[] = [
   { id: 17, teamName: "Prime Crew-X", result: "" },
   { id: 18, teamName: "The Unstoppable", result: "" },
   { id: 19, teamName: "Feint E-sport", result: "" },
-  { id: 19, teamName: "Golden Bride", result: "" },
-  { id: 19, teamName: "Brother FC", result: "" },
+  { id: 20, teamName: "Golden Bride", result: "" },
+  { id: 21, teamName: "Brother FC", result: "5 - 4" },
 ];
