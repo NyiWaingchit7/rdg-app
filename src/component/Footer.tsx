@@ -40,6 +40,7 @@ const Footer = () => {
                   mx: 3,
                   p: 1,
                 }}
+                key={v.id}
               >
                 <Typography>{v.name}</Typography>
                 {v.icon}
@@ -64,6 +65,7 @@ const Footer = () => {
                   p: 1,
                   flexDirection: { xs: "row-reverse", sm: "row" },
                 }}
+                key={v.id}
               >
                 {v.icon}
                 <Typography>{v.name}</Typography>

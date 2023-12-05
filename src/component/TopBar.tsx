@@ -162,6 +162,6 @@ export const sideBar = [
     id: 5,
     name: "Event",
     icon: <EventAvailableIcon sx={{ fontSize: "2rem" }} />,
-    route: "/",
+    route: "/event",
   },
 ];

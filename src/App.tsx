@@ -10,6 +10,7 @@ import Achievement from "./pages/Achievement";
 import PlayerDetail from "./component/PlayerDetail";
 import HeadDetail from "./component/HeadDetail";
 import Fixture from "./pages/Fixture";
+import Event from "./pages/Event";
 
 function App() {
   return (
@@ -20,9 +21,9 @@ function App() {
           <Route path="/head/:id" Component={HeadDetail} />
           <Route path="/player" Component={Player} />
           <Route path="/player/:id" Component={PlayerDetail} />
-
           <Route path="/achievement" Component={Achievement} />
           <Route path="/fixture" Component={Fixture} />
+          <Route path="/event" Component={Event} />
         </Routes>
       </Layout>
     </BrowserRouter>

@@ -44,7 +44,7 @@ export const players: Main[] = [
     joinDate: "2022",
     age: 22,
     birthDate: "1-1-2001",
-    img: "img/nyiNyiHtet.png",
+    img: "img/lynnLtt.png",
   },
   {
     id: 4,
