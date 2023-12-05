@@ -69,7 +69,7 @@ const Fixture = () => {
             <Typography
               sx={{
                 width: "40%",
-                fontWeight: "bold",
+                fontWeight: { xs: "bold" },
                 fontSize: { xs: "0.85rem", sm: "1rem" },
                 textAlign: "center",
               }}
