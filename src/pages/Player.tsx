@@ -43,7 +43,7 @@ const Player = () => {
         >
           <TextField
             sx={{
-              width: { xs: "45%", sm: "30%", md: "20%", lg: "15%" },
+              width: { xs: "50%", sm: "30%", md: "20%", lg: "15%" },
               p: 1,
             }}
             size="small"
